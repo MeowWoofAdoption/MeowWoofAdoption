@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--This is my Capstone project where I make a web about adopting animals.-->
+  <title>Contact - Meow Woof Adoption</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="CSS.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="Cats/Jimmy.jpg">
+</head>
+
+<div class="topbar" id="Top">
+  <a href="javascript:void(0);" style="font-size:15px;" class="menu" onclick="DropMenu()">&#9776;</a>
+  <a href="A Homepage.html">Homepage</a>
+  <a href="Adoptions.html">Adoptions</a>
+  <a href="Benefits.html">Benefits</a>
+  <a href="Inspirations.html">Inspirations</a>
+  <a class="active" href="Contact.html">Contact Me</a>
+</div>
+
+
+<div class="colourblock">
+  <h1 style="font-family: rubik;">Contact Me</h1>
+</div>
+
+
+<div class="QuestionsSuggestion">
+  <br><br><Br><br>
+  <h1 style="font-family: rubik">Have any questions or suggestions?</h1>
+  <br>
+  <p style="font-size: 22px; font-family: lato; font-weight:bold;">This cat wants you to fill the form!</p>
+  <br><Br><br>
+  <img src="Cats/Jimmy3.jpg" id="SideImageLeft">
+  <br><Br><br>
+
+  <form name="Info">
+    <p style="font-size: 22px; font-family: lato; font-weight: 100px;" class="Questions">Full Name:<br></p>
+    <br>
+    <input style="height: 30px; font-size: 20px; font-family:'Tahoma', Arial, Arabic Transparent;" type="text" size="50"
+      name="Name" placeholder="Your name"></p>
+    <br>
+    <p style="font-size: 22px; font-family: lato; font-weight: 100px;" class="Questions">Email:<br></p>
+    <Br>
+    <input style="height: 30px; font-size: 20px; font-family:'Tahoma', Arial, Arabic Transparent;" type="text" size="50"
+      name="E-Nail" placeholder="Your E-Mail"></p>
+    <br>
+    <p style="font-size: 22px; font-family: lato; font-weight: 100px;" class="Questions">Comments and Questions:<br></p>
+    <Br>
+    <textarea id="subject" name="message" placeholder="Your message"
+      style="height:170px; width: 550px; font-size: 20px; font-family:'Tahoma', Arial, Arabic Transparent;"></textarea>
+      <br><br>
+      <input type="submit" style="text-align: center; height: 35px; width: 255px; font-size: 20px;"></button>
+  </form>
+  <br><br>
+
+  <p style="font-size: 22px; font-family: lato; font-weight: 100px;">Contact:</p>
+  <Br>
+  <p style="font-size: 22px; font-family: lato; font-weight: 100px;">meowwoofadoption@gmail.com</p>
+  <br><Br>
+  <a href="https://twitter.com/MeowWoo68190160"> <img alt="Twitter"
+      src="Social Media Logo/2021 Twitter logo - blue.png" width="60px" </a></a>
+  <a style="margin-left:10px ;" href="https://www.instagram.com/meow_woof_adoption/">
+    <img alt="Instagram" src="Social Media Logo/glyph-logo_May2016.png" width="50px" </a></a>
+    <br><br><br>
+</div>
+
+<div class="BottomBlock">
+  <div style="float:left; width: 10px;">
+    <h1 class="NameLogo">Meow</h1>
+    <h1 class="NameLogo">Woof</h1>
+    <h1 class="NameLogo">Adoption</h1>
+  </div>
+
+  <div>
+    <br>
+    <p class="BottomContact">Contact Us </p>
+    <br>
+    <p class="BottomContact" style="transform: translateY(-20%);">meowwoofadoption@gmail.com</p>
+    
+  </div>
+
+  <div style="float: right; transform: translateY(-90%); padding-right: 10px;">
+    <a href="https://twitter.com/MeowWoo68190160"> <img alt="Twitter"
+      src="Social Media Logo/2021 Twitter logo - blue.png" width="30px" style= "margin-right:10px;"</a></a>
+      
+    <a href="https://www.instagram.com/meow_woof_adoption/">
+      <img alt="Instagram" src="Social Media Logo/glyph-logo_May2016.png" width="30px" style="margin-right: 10px; " </a></a>
+  </div>
+
+
+<script>
+  //Make dropdown responsive if the class is "topbar'
+  function DropMenu() {
+    var x = document.getElementById("Top");
+    if (x.className === "topbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "topbar";
+    }
+  }
+</script>
+
+
+
+</html>
